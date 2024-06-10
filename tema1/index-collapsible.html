@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Orokorra</title>
+    <link
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <style>
+        .navbar-nav {
+            justify-content: center;
+            flex: 1;
+        }
+        .header {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .header h1 {
+            color: #d9534f;
+        }
+        .header h2 {
+            color: #5bc0de;
+        }
+        .content {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .content img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #5bc0de;
+        }
+        .form {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Lorem ipsum</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dapibus ac facilisis in</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Morbi leo risus</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1>Nivel 1</h1>
+            <h2>Nivel 2</h2>
+        </div>
+        <div class="content">
+            <p>Kaixo</p>
+            <img
+                src="desert.jpg"
+                alt="Profile Picture"
+                class="img-fluid"
+            />
+        </div>
+        <div class="footer">
+            <p>EHU</p>
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Introduce tu nombre:</label>
+                    <input
+                        type="text"
+                        class="form-control d-inline w-auto"
+                        id="name"
+                        name="name"
+                    />
+                    <input type="submit" class="btn btn-primary" value="Enviar" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
